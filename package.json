@@ -1,0 +1,23 @@
+{
+  "name": "PitchDetect",
+  "version": "1.0.0",
+  "description": "I whipped this app up to start experimenting with pitch detection, and also to test live audio input.  It used to perform a naive (zero-crossing based) pitch detection algorithm; now it uses a naively-implemented auto-correlation algorithm in realtime, so it should work well with most monophonic waveforms (although strong harmonics will throw it off a bit).  It works well with whistling (which has a clear, simple waveform); it also works pretty well to tune my guitar.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eynol/PitchDetect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eynol/PitchDetect/issues"
+  },
+  "homepage": "https://github.com/eynol/PitchDetect#readme",
+  "devDependencies": {
+    "typescript": "^3.7.3"
+  }
+}
